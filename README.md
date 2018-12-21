@@ -35,7 +35,7 @@ You must have a package.json file at the root of your project. All JavaScript pr
 Try to reproduce with a minimal vimrc configuration. You can use the one included in this project to create a temp vim setup.
 
 ```
-curl https://raw.githubusercontent.com/ryanolsonx/vim-lsp/master/minimal.vimrc -o /tmp/minimal.vimrc
+curl https://raw.githubusercontent.com/ryanolsonx/vim-lsp-typescript/master/minimal.vimrc -o /tmp/minimal.vimrc
 vim -u /tmp/minimal.vimrc +PlugInstall
 ```
 
