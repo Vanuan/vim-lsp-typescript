@@ -22,7 +22,22 @@ Plug 'ryanolsonx/vim-lsp-typescript'
 
 ## Usage
 
-In order for the typescript language server to pick up your project, you must have either a `tsconfig.json` or a `jsconfig.json`. For a JavaScript project, you can simply have an empty jsconfig.json to get full intelligent support from vim-lsp.
+### TypeScript
+
+You must have a tsconfig.json at the root of your project and this plugin will be able to pick it up and provide TypeScript support.
+
+### JavaScript
+
+You must have a package.json file at the root of your project. All JavaScript projects should have one anyway.
+
+## Have an Issue?
+
+Try to reproduce with a minimal vimrc configuration. You can use the one included in this project to create a temp vim setup.
+
+```
+curl https://raw.githubusercontent.com/ryanolsonx/vim-lsp/master/minimal.vimrc -o /tmp/minimal.vimrc
+vim -u /tmp/minimal.vimrc +PlugInstall
+```
 
 ## License
 
