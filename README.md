@@ -33,7 +33,6 @@ Try to reproduce with a minimal vimrc configuration. You can use the one include
 ```
 curl https://raw.githubusercontent.com/ryanolsonx/vim-lsp-typescript/master/minimal.vimrc -o /tmp/minimal.vimrc
 vim -u /tmp/minimal.vimrc +PlugInstall +qall
-vim -u /tmp/minimal.vimrc ./your_test_file.js
 vim -u /tmp/minimal.vimrc ./your_test_file.ts
 ```
 
