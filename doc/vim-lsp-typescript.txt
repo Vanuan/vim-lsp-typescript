@@ -14,13 +14,11 @@ INTRODUCTION                                *vim-lsp-typescript-introduction*
 
 vim-lsp, https://github.com/prabirshrestha/vim-lsp, is a vim plugin that
 enables the use of use of the Language Service Protocol. vim-lsp-typescript
-provides the language server setup for TypeScript and JavaScript. So for you to use vim-lsp
+provides the language server setup for TypeScript. So for you to use vim-lsp
 in your TypeScript project, all you need to do is have vim-lsp and
-vim-lsp-typescript installed and you'll have a working setup. Likewise, for a
-JavaScript project, you'll need what TypeScript needs _plus_ a jsconfig.json
-file at the root of your project.
+vim-lsp-typescript installed and you'll have a working setup.
 
-See: :h vim-lsp.txt for more information on that plugin.
+See: :help vim-lsp.txt for more information on that plugin.
 
 =============================================================================
 INSTALL                        		         *vim-lsp-typescript-install*
@@ -33,8 +31,8 @@ features). Use the following setup (using vim-plug) to install plugins
   Plug 'prabirshrestha/asyncomplete.vim'
   Plug 'prabirshrestha/async.vim'
   Plug 'prabirshrestha/vim-lsp'
-  Plug 'ryanolsonx/vim-lsp-typescript'
   Plug 'prabirshrestha/asyncomplete-lsp.vim'
+  Plug 'ryanolsonx/vim-lsp-typescript'
 
 
 LANGUAGE SERVER                  *vim-lsp-typescript-install-language-server*

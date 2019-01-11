@@ -1,6 +1,8 @@
 # vim-lsp-typescript
 
-Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for TypeScript and JavaScript.
+Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for TypeScript.
+
+_Note: This plugin no longer sets things up for JavaScript anymore. Please use [ryanolsonx/vim-lsp-javascript](https://github.com/ryanolsonx/vim-lsp-javascript) to set up `vim-lsp` for JavaScript use._
 
 ## Installing
 
@@ -22,13 +24,7 @@ Plug 'ryanolsonx/vim-lsp-typescript'
 
 ## Usage
 
-### TypeScript
-
 You must have a tsconfig.json at the root of your project and this plugin will be able to pick it up and provide TypeScript support.
-
-### JavaScript
-
-You must have a package.json file at the root of your project. All JavaScript projects should have one anyway.
 
 ## Have an Issue?
 
